@@ -1,0 +1,39 @@
+# dependencies
+node_modules
+.pnp
+.pnp.*
+
+# next.js build output
+.next
+out
+build
+
+# typescript
+next-env.d.ts
+*.tsbuildinfo
+
+# env files (keep secrets out of git)
+.env
+.env*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# testing
+coverage
+
+# deploys
+.vercel
+
+# editors and OS
+.DS_Store
+Thumbs.db
+.idea
+.vscode/*
+!.vscode/settings.json
+
+# Nocturne: the index is regenerated; memory/ is kept
+.nocturne/index/
