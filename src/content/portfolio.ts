@@ -14,6 +14,8 @@ export const portfolio = {
   since: 2020,
   tagline: "I turn Figma designs into fast, reliable React and Next.js apps.",
   location: "Cebu, Philippines",
+  /** Where the site is published; used for canonical links, the sitemap and structured data. */
+  site: "https://www.jicklampago.online",
 
   about: [
     "I’m a React and Next.js developer with six years of building for the web: e-commerce, payment gateways, POS and learning platforms.",

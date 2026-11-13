@@ -9,3 +9,5 @@ keywords: owner, name, theme, software engineer, book, content
 - Concept (chosen by the user): a 3D book that opens and turns pages on scroll with cinematic camera moves; themed around software engineering (circuit-board cover, code/terminal/git-log pages, monospace type, cyan accent).
 - All personal content lives in `src/content/portfolio.ts`, now filled from the resume. Side projects live at *.brainxai.site (AutoGo, OpenDash, BookMe), and the AI agent is at brainxai.site.
 - 2026-11-13: the user supplied their resume and asked to "feed it with real data", so the site contact email is now their real address. Phone number, street address and demo admin credentials stay off the site.
+- Repo (2026-11-13): git on branch `main`, pushed to github.com:lamji/ai-portfolios over SSH. `.nocturne/index/` is git-ignored; `.nocturne/memory/` is committed.
+- Live URL: https://www.jicklampago.online (given 2026-11-13; replaces jick.brainxai.site) (`site` in the content file; override with NEXT_PUBLIC_SITE_URL). SEO/AEO is built from the content file in `src/lib/seo.ts` (metadata, JSON-LD, /llms.txt, robots, sitemap, OG image).
